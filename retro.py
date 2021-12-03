@@ -20,8 +20,7 @@ for y in range(int(ordem)-1):
   if pivo == 0:
     print('pivo nulo')
     break
-  j = i + 1
-  for j in range(int(ordem)):
+  for j in range(y+1,int(ordem)):
     cont = matriz[j][y]/pivo
     for x in range(int(ordem)):
       matriz[j][x] = matriz[j][x] - cont * matriz[y][x]
