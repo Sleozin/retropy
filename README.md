@@ -1,3 +1,3 @@
 # retropy
-feito utilizando a bilioteca NumPy
+Feito utilizando a bilioteca NumPy\n
 Algoritimo simples de ------------ em python
